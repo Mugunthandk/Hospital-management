@@ -1,0 +1,6 @@
+{
+  "name": "HealthFlow Enterprise Hospital Management System",
+  "description": "Enterprise multi-hospital & clinic management system with role-based portals, EHR, bed allocation, pharmacy POS, lab & radiology, blood bank, ambulance tracking, billing, and AI clinical assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
