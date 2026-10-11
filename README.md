@@ -1,445 +1,747 @@
-# 🏥 Hospital & Clinic Website
+# 🏥 CareSphere 2.0 | Hospital & Clinic Management Platform
 
-<p align="center">
+### Intelligent Healthcare. Connected Care. Better Experiences.
 
-![Hospital](https://img.shields.io/badge/Hospital-Management-blue?style=for-the-badge)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge\&logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge\&logo=vite)
-![Vercel](https://img.shields.io/badge/Hosted_on-Vercel-black?style=for-the-badge\&logo=vercel)
+**A modern digital healthcare platform designed to connect patients, doctors, laboratories, pharmacies, and hospital administrators through a unified experience.**
 
-</p>
+<div align="center">
 
-<p align="center">
+[🌐 Live Demo](https://hospital-management-sigma-snowy.vercel.app/) · [💻 GitHub](https://github.com/Mugunthandk) · [👨‍💻 LinkedIn](https://www.linkedin.com/in/mugunthandk/)
 
-A modern, responsive, and user-friendly Hospital & Clinic Management Website that simplifies healthcare services by enabling online appointments, doctor discovery, emergency support, digital payments, patient management, and more.
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-Type_Safe-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Deployment](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)
 
-</p>
-
----
-
-# 🌐 Live Demo
-
-### 🚀 Visit the Website
-
-## **https://hospital-management-sigma-snowy.vercel.app/**
+</div>
 
 ---
 
-# 📖 Project Overview
+## 📖 Table of Contents
 
-The Hospital & Clinic Website is designed to provide a seamless digital healthcare experience for patients and healthcare providers.
-
-The application focuses on:
-
-* Easy Appointment Booking
-* Doctor Management
-* Emergency Services
-* Medical Departments
-* Online Payments
-* Responsive User Experience
-* Patient Dashboard
-* Modern Healthcare UI
-
----
-
-# ✨ Features
-
-## 🏠 Home
-
-* Beautiful Hero Section
-* Animated Statistics
-* Emergency Banner
-* Featured Doctors
-* Health Care Introduction
-* Why Choose Us
-* Testimonials
-* Latest Medical News
-* FAQ Section
-* Newsletter Subscription
+- [Overview](#-overview)
+- [Vision and Objectives](#-vision-and-objectives)
+- [Core Features](#-core-features)
+- [AI-Powered Healthcare](#-ai-powered-healthcare)
+- [Technology Stack](#-technology-stack)
+- [System Architecture](#-system-architecture)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Environment Variables](#-environment-variables)
+- [API Architecture](#-api-architecture)
+- [Database Design](#-database-design)
+- [Security and Privacy](#-security-and-privacy)
+- [Testing](#-testing)
+- [Deployment](#-deployment)
+- [Development Roadmap](#-development-roadmap)
+- [Contributing](#-contributing)
+- [Developer](#-developer)
+- [License](#-license)
 
 ---
 
-## 👨‍⚕️ Doctors
+## 🌟 Overview
 
-* Doctor Profiles
-* Experience
-* Qualification
-* Department
-* Consultation Fee
-* Available Timings
-* Ratings & Reviews
-* Languages Spoken
-* Book Appointment Button
+CareSphere is a proposed evolution of the Hospital & Clinic Website into a comprehensive digital healthcare management platform.
 
----
+The platform aims to simplify healthcare access by connecting patients with doctors, medical departments, diagnostic laboratories, pharmacy services, and hospital administration.
 
-## 🩺 Medical Departments
+The system combines appointment scheduling, patient-facing services, operational dashboards, and planned AI-assisted features within a responsive interface.
 
-* General Medicine
-* Cardiology
-* Neurology
-* Orthopedics
-* Pediatrics
-* Dermatology
-* ENT
-* Dental Care
-* Ophthalmology
-* Oncology
-* Pulmonology
-* Urology
-* Radiology
-* ICU
-* Emergency Care
+### 🎯 Project Objectives
+
+- Improve access to healthcare information and services.
+- Simplify doctor discovery and appointment scheduling.
+- Provide patients with a unified portal for appointments and billing.
+- Support doctors and administrators with organized workflows.
+- Enable secure management of medical records and prescriptions.
+- Introduce carefully controlled AI-assisted healthcare tools.
+- Establish a scalable architecture for future integrations.
+
+**Live website:** https://hospital-management-sigma-snowy.vercel.app/
 
 ---
 
-## 📅 Appointment Booking
+## ✨ Core Features
 
-* Online Booking Form
-* Department Selection
-* Doctor Selection
-* Date Picker
-* Time Slot Selection
-* Patient Details
-* Booking Confirmation
-* Success Screen
+### 🏠 1. Healthcare Homepage
+
+- Professional healthcare landing page.
+- Featured doctors and departments.
+- Hospital introduction and services.
+- Appointment booking calls to action.
+- Emergency contact information.
+- Patient testimonials and FAQs.
+- Contact information and location.
+- Responsive navigation.
+
+### 👨‍⚕️ 2. Doctor Discovery
+
+- Doctor profiles and specialties.
+- Qualifications and professional experience.
+- Consultation information.
+- Available appointment slots.
+- Department-based filtering.
+- Patient feedback where verified.
+- Appointment booking entry points.
+
+### 🩺 3. Medical Departments
+
+Support department discovery for services such as:
+
+- General Medicine.
+- Cardiology.
+- Neurology.
+- Orthopedics.
+- Pediatrics.
+- Dermatology.
+- ENT.
+- Dental Care.
+- Ophthalmology.
+- Oncology.
+- Pulmonology.
+- Urology.
+- Radiology.
+- Emergency Medicine.
+
+Actual clinical services should reflect the participating hospital's capabilities.
+
+### 📅 4. Smart Appointment Management
+
+- Doctor and department selection.
+- Date and time slot selection.
+- Patient information forms.
+- Appointment requests and confirmation.
+- Rescheduling and cancellation.
+- Upcoming and past appointments.
+- Appointment reminders.
+- Doctor availability management.
+
+A reliable booking backend should prevent double booking and validate availability before confirming appointments.
+
+### 👤 5. Patient Portal
+
+Planned features include:
+
+- Secure account access.
+- Profile and contact management.
+- Appointment history.
+- Medical record access.
+- Prescriptions and reports.
+- Bills and payment history.
+- Follow-up appointment information.
+- Notification preferences.
+
+Access to sensitive records must be restricted to authorized users.
+
+### 🧪 6. Laboratory Services
+
+- Diagnostic test catalog.
+- Health package listings.
+- Test preparation instructions.
+- Laboratory booking requests.
+- Home sample collection requests.
+- Report availability notifications.
+- Secure report access.
+
+Laboratory reports should only be displayed after they have been issued and verified by the authorized laboratory workflow.
+
+### 💊 7. Pharmacy Services
+
+- Medicine catalog.
+- Prescription upload workflow.
+- Medicine availability.
+- Order requests and status.
+- Delivery information.
+- Inventory management.
+- Pharmacist review for prescription-restricted medicines.
+
+Prescription validation and medicine dispensing must follow applicable laws and professional requirements.
+
+### 🚑 8. Emergency Services
+
+- Emergency contact information.
+- Ambulance contact and request workflows.
+- Hospital location and directions.
+- Blood bank information where verified.
+- Emergency department information.
+- Clear instructions to contact local emergency services.
+
+Emergency requests must not depend solely on an AI chatbot or an unmonitored web form.
+
+### 💳 9. Billing and Payments
+
+Planned capabilities:
+
+- Consultation fee information.
+- Bill generation.
+- Payment gateway integration.
+- Payment status verification.
+- Digital receipts.
+- Billing history.
+- Refund processing workflows.
+- Administrative payment reconciliation.
+
+Payment status must be verified by the backend and the payment provider.
+
+### 🔐 10. Authentication and Access Control
+
+- Patient registration and login.
+- Secure session management.
+- Password recovery.
+- Role-based permissions.
+- Doctor and administrator accounts.
+- Protected patient records.
+- Session expiration and logout.
+- Audit logging for sensitive actions.
+
+### 📊 11. Hospital Administration Dashboard
+
+Planned features:
+
+- Appointment overview.
+- Doctor and department management.
+- Patient registration management.
+- Scheduling and availability.
+- Billing reports.
+- Pharmacy inventory.
+- Laboratory workflow management.
+- Operational analytics.
+- Authorized user and permission management.
+
+### 📱 12. Modern User Experience
+
+- Responsive desktop, tablet, and mobile layouts.
+- Accessible forms and navigation.
+- Clear status indicators.
+- Loading skeletons and error states.
+- Consistent typography and spacing.
+- Optimized images and assets.
+- Keyboard navigation.
+- Performance-conscious page rendering.
 
 ---
 
-## 💳 Online Payment
+## 🤖 AI-Powered Healthcare
 
-* QR Code Payment
-* UPI Payment
-* Credit Card UI
-* Debit Card UI
-* Net Banking
-* Payment Success Screen
-* Download Receipt
-* Payment History
+AI can assist with information discovery and administrative workflows when implemented with appropriate safeguards.
 
----
+### AI Health Information Assistant
 
-## 🧪 Laboratory
+Potential capabilities:
 
-* Blood Tests
-* Health Packages
-* Home Sample Collection
-* Online Reports
-* Test Pricing
-* Lab Timings
+- Answer general healthcare questions using reviewed informational content.
+- Explain appointment procedures and hospital services.
+- Help users locate relevant departments.
+- Summarize approved educational materials.
+- Direct users to appropriate professional care when necessary.
 
----
+### AI Appointment Assistant
 
-## 💊 Pharmacy
+- Help users find doctors by specialty.
+- Suggest available appointment slots from the booking system.
+- Explain appointment requirements.
+- Assist with scheduling and reminders.
 
-* Medicine Catalog
-* Prescription Upload
-* Online Ordering
-* Home Delivery Information
+### AI-Assisted Medical Document Summaries
 
----
+A future clinician-supervised feature could summarize uploaded reports or medical documents for review by authorized professionals.
 
-## 🚑 Emergency Services
+### Important clinical safeguards
 
-* Ambulance Booking
-* Emergency Numbers
-* Blood Bank Information
-* 24×7 Support
-* Emergency Instructions
+- Do not present AI output as a confirmed diagnosis.
+- Do not prescribe medicines or change treatments automatically.
+- Use verified clinical sources for medical information.
+- Require qualified clinical review for clinical decision-support workflows.
+- Protect patient data and obtain appropriate consent.
+- Do not use real patient records as demo data.
+- Direct emergencies to appropriate human emergency services.
+
+**Implementation status:** AI capabilities described in this section are proposed extensions unless they are already implemented and tested.
 
 ---
 
-## 👤 Patient Dashboard
+## 🛠️ Technology Stack
 
-* Profile Management
-* Appointment History
-* Upcoming Visits
-* Medical Records
-* Prescriptions
-* Bills & Payments
+### Current frontend foundation
 
----
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| TypeScript | Type safety |
+| Vite | Development and build tooling |
+| Tailwind CSS | Responsive styling |
+| Lucide React | Icons |
+| React Router | Client-side navigation |
+| Framer Motion | Optional animations |
+| Vercel | Frontend hosting |
 
-## 🔐 Authentication
+### Proposed backend and integrations
 
-* Login
-* Register
-* Forgot Password
-* Reset Password
-* Logout
+| Technology | Purpose |
+|---|---|
+| Node.js | Backend runtime |
+| Express.js | REST API |
+| PostgreSQL | Structured healthcare data |
+| Prisma | Database access and migrations |
+| Secure sessions or JWT | Authentication |
+| Firebase Authentication | Alternative authentication provider |
+| Cloudinary or private object storage | Appropriate image and document storage |
+| Razorpay | Payment integration |
+| Resend | Transactional notifications |
+| Vitest | Unit testing |
+| Playwright | End-to-end testing |
 
----
-
-## 📍 Contact
-
-* Contact Form
-* Google Maps
-* Address
-* Email
-* Phone Number
-* Emergency Contact
-* Working Hours
-
----
-
-## 📱 Responsive Design
-
-* Mobile Friendly
-* Tablet Support
-* Desktop Optimized
-* Cross Browser Compatible
+The backend and integration choices are proposed. Update this section to reflect the technologies actually present in the repository.
 
 ---
 
-# 🎨 Modern UI Highlights
+## 🏗️ System Architecture
 
-* Clean Layout
-* Professional Color Scheme
-* Smooth Animations
-* Interactive Components
-* Fast Navigation
-* Responsive Cards
-* Beautiful Icons
-* Modern Forms
-* Attractive Hero Banner
-* Hover Effects
+The following diagram illustrates the proposed full-stack system.
 
----
+```mermaid id="care01"
+flowchart TD
+    U[Patient / Doctor / Admin] --> F[React Frontend]
+    F --> API[Node.js + Express API]
 
-# 🛠 Tech Stack
+    API --> AUTH[Authentication and Authorization]
+    API --> APPT[Appointment Service]
+    API --> PAT[Patient Record Service]
+    API --> LAB[Laboratory Service]
+    API --> PHARM[Pharmacy Service]
+    API --> BILL[Billing Service]
+    API --> AI[AI Assistance Service]
 
-## Frontend
+    AUTH --> DB[(PostgreSQL)]
+    APPT --> DB
+    PAT --> DB
+    LAB --> DB
+    PHARM --> DB
+    BILL --> DB
 
-* React.js
-* TypeScript
-* Vite
-* Tailwind CSS
-* HTML5
-* CSS3
-* JavaScript
+    AI --> KNOW[Reviewed Information Sources]
+    BILL --> PAY[Payment Provider]
+    API --> NOTIFY[Notification Service]
+```
 
-## UI Libraries
+### Architecture principles
 
-* Lucide React
-* React Router
-* Framer Motion
-
-## Backend (Optional)
-
-* Node.js
-* Express.js
-
-## Database (Optional)
-
-* MongoDB
-* Firebase
-
-## Authentication
-
-* Firebase Authentication
-* JWT Authentication
-
-## Deployment
-
-* Vercel
+- Separate frontend presentation from backend business logic.
+- Enforce permissions at the API and data-access layers.
+- Use database transactions for sensitive multi-step operations.
+- Maintain appointment consistency and prevent double booking.
+- Store sensitive records using appropriate access controls.
+- Keep external API credentials on the server.
+- Maintain auditable histories for critical operations.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
+
+### Frontend
 
 ```text
 hospital-management/
-
-│── public/
-│
-│── src/
+├── public/
+│   ├── images/
+│   └── favicon.svg
+├── src/
 │   ├── assets/
 │   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   ├── doctors/
+│   │   ├── appointments/
+│   │   └── dashboard/
 │   ├── pages/
 │   ├── layouts/
 │   ├── hooks/
 │   ├── services/
 │   ├── context/
+│   ├── types/
 │   ├── utils/
 │   ├── styles/
 │   ├── App.tsx
 │   └── main.tsx
-│
+├── tests/
 ├── package.json
 ├── vite.config.ts
 ├── tsconfig.json
 └── README.md
 ```
 
----
+### Proposed backend
 
-# 🚀 Getting Started
-
-## Clone Repository
-
-```bash
-git clone https://github.com/your-username/hospital-management.git
+```text
+server/
+├── src/
+│   ├── config/
+│   ├── middleware/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── services/
+│   ├── validators/
+│   ├── audit/
+│   ├── utils/
+│   ├── app.ts
+│   └── server.ts
+├── tests/
+├── package.json
+└── .env.example
 ```
 
+This is a suggested structure. Adapt it to the actual repository before documenting it as the current layout.
+
 ---
 
-## Navigate
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js compatible with the project's Vite version.
+- npm.
+- Git.
+- Visual Studio Code or another code editor.
+
+A database and third-party accounts are only required when the corresponding backend integrations are implemented.
+
+### 1. Clone the repository
 
 ```bash
+git clone https://github.com/Mugunthandk/hospital-management.git
 cd hospital-management
 ```
 
----
+Replace the example repository URL with the actual GitHub URL if your repository uses another name.
 
-## Install
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
----
-
-## Start Development
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
----
+### 4. Open the application
 
-## Build
+Vite typically uses:
+
+```text
+http://localhost:5173
+```
+
+Use the local URL displayed in your terminal.
+
+### 5. Build for production
 
 ```bash
 npm run build
 ```
 
----
-
-## Preview
+### 6. Preview the production build
 
 ```bash
 npm run preview
 ```
 
----
-
-# 💻 Pages Included
-
-* Home
-* About
-* Doctors
-* Departments
-* Appointment
-* Services
-* Pharmacy
-* Laboratory
-* Contact
-* Login
-* Register
-* Dashboard
-* Payment
-* Emergency
-* FAQ
+Confirm the available commands in `package.json`.
 
 ---
 
-# ⭐ Key Highlights
+## 🔐 Environment Variables
 
-* Modern Healthcare UI
-* Professional Design
-* Responsive Layout
-* Easy Navigation
-* Fast Performance
-* SEO Friendly
-* Accessible Components
-* Mobile First
-* Optimized Images
-* Clean Code Structure
+For the proposed full-stack implementation, create a server-side `.env` file.
 
----
+Example `.env.example`:
 
-# 📈 Performance
+```env
+NODE_ENV=development
+PORT=5000
 
-* Fast Loading
-* Optimized Assets
-* Lazy Loading
-* Reusable Components
-* Responsive Design
-* Cross Browser Support
-* SEO Optimized
+DATABASE_URL=your_database_connection_string
 
----
+SESSION_SECRET=your_long_random_secret
 
-# 🔮 Future Enhancements
+PAYMENT_PROVIDER_KEY=your_test_key
+PAYMENT_PROVIDER_SECRET=your_test_secret
 
-* 🤖 AI Health Assistant
-* 🎥 Video Consultation
-* 📄 Digital Prescription
-* 📱 Mobile App
-* 💬 Live Chat Support
-* 🌙 Dark Mode
-* 🌍 Multi-language Support
-* 🔔 Push Notifications
-* 📧 Email Notifications
-* 📲 SMS Notifications
-* 🧠 AI Symptom Checker
-* 📊 Admin Dashboard
-* 👨‍⚕️ Doctor Dashboard
-* 📅 Calendar Integration
-* 💉 Vaccination Tracking
-* 🏥 Bed Availability Monitoring
-* 💳 Online Billing System
-* 📦 Pharmacy Inventory
-* 📈 Health Analytics
+EMAIL_API_KEY=your_email_provider_api_key
+
+CLIENT_URL=http://localhost:5173
+```
+
+Add only the variables required by the services you implement.
+
+### Security requirements
+
+- Never commit `.env` files.
+- Keep secrets on the backend.
+- Use separate development and production credentials.
+- Restrict access to sensitive records.
+- Configure HTTPS in production.
+- Avoid exposing patient information in URLs, logs, or analytics.
+- Use appropriate backup and recovery procedures.
 
 ---
 
-# 🎯 Project Objectives
+## 🔌 Proposed API Architecture
 
-* Improve digital healthcare accessibility.
-* Simplify appointment scheduling.
-* Enhance patient engagement.
-* Deliver a seamless healthcare experience.
-* Build a responsive and modern medical platform.
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/api/doctors` | List doctors |
+| GET | `/api/departments` | List departments |
+| GET | `/api/appointments/availability` | Check appointment availability |
+| POST | `/api/appointments` | Request an appointment |
+| GET | `/api/appointments` | Retrieve authorized appointments |
+| GET | `/api/patients/me` | Retrieve the current patient profile |
+| GET | `/api/patients/me/records` | Retrieve authorized patient records |
+| GET | `/api/laboratory/tests` | Browse diagnostic tests |
+| GET | `/api/pharmacy/products` | Browse pharmacy products |
+| POST | `/api/payments/verify` | Verify a payment |
+| POST | `/api/assistant/questions` | Request general informational assistance |
+| GET | `/api/admin/analytics` | Retrieve authorized administrative analytics |
+
+These are proposed endpoints, not claims that the current application already provides them.
+
+All patient-specific and administrative endpoints must verify the user's identity and permissions on the server.
 
 ---
 
-# 🤝 Contributing
+## 🗄️ Database Design
 
-Contributions are welcome.
+The proposed PostgreSQL schema can include:
+
+| Entity | Purpose |
+|---|---|
+| Users | Authentication identity and role |
+| Patients | Patient profile and contact information |
+| Doctors | Professional profile and department |
+| Departments | Medical service categories |
+| Schedules | Doctor availability |
+| Appointments | Appointment status and scheduling |
+| Medical Records | Authorized clinical documents |
+| Prescriptions | Prescribing and review information |
+| Laboratory Orders | Requested diagnostic services |
+| Laboratory Reports | Issued reports and access permissions |
+| Pharmacy Products | Medicine catalog |
+| Pharmacy Orders | Pharmacy order workflow |
+| Bills | Charges and billing information |
+| Payments | Payment references and verified statuses |
+| Audit Logs | Security-relevant actions |
+
+### Data integrity
+
+- Use transactions for appointment and billing workflows.
+- Prevent conflicting doctor bookings.
+- Apply strict authorization to patient records.
+- Record important changes to clinical and administrative data.
+- Maintain appropriate retention and deletion policies.
+- Keep payment details limited to necessary provider references.
+- Use synthetic data for demonstrations and development.
+
+---
+
+## 🛡️ Security, Privacy, and Healthcare Compliance
+
+Healthcare applications require stronger privacy protections than ordinary informational websites.
+
+Recommended safeguards include:
+
+- Role-based access control.
+- Secure authentication and password hashing.
+- Encryption in transit and appropriate encryption at rest.
+- Audit logging for access to sensitive records.
+- Request validation and rate limiting.
+- Restricted cross-origin access.
+- Secure file upload and download controls.
+- Regular dependency and security reviews.
+- Backup and disaster recovery procedures.
+- Appropriate consent, retention, and data handling policies.
+
+Applicable healthcare privacy, medical record, and data protection requirements depend on the operating jurisdiction and the actual deployment.
+
+A portfolio demonstration should use synthetic patient data and must not be represented as a certified clinical system without the relevant verification and approvals.
+
+---
+
+## 🧪 Testing
+
+### Build verification
+
+```bash
+npm run build
+```
+
+### Unit tests
+
+```bash
+npm run test
+```
+
+### End-to-end tests
+
+```bash
+npx playwright test
+```
+
+These commands require the corresponding scripts and testing dependencies to be configured.
+
+### Essential test scenarios
+
+- Doctor search and department filtering.
+- Appointment availability validation.
+- Prevention of duplicate bookings.
+- Authentication and access permissions.
+- Unauthorized access to patient records.
+- Payment success and failure handling.
+- Appointment cancellation and rescheduling.
+- Laboratory report access restrictions.
+- Responsive layouts and accessibility.
+- API errors and external service failures.
+
+---
+
+## 🚀 Deployment
+
+### Frontend deployment using Vercel
+
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Configure the correct project root.
+4. Set the build command to `npm run build`.
+5. Configure the output directory, usually `dist`.
+6. Add any required frontend environment variables.
+7. Deploy and verify the production website.
+
+**Live website:** https://hospital-management-sigma-snowy.vercel.app/
+
+### Backend deployment using Render
+
+When the backend is implemented:
+
+1. Create a backend web service.
+2. Configure the build and start commands.
+3. Add the required server environment variables.
+4. Configure secure database connectivity.
+5. Set trusted frontend origins.
+6. Test authentication, authorization, and API behavior.
+7. Verify backups, logs, and recovery procedures.
+
+---
+
+## 🗺️ Development Roadmap
+
+### Phase 1: Patient-Facing Website
+
+- [x] Initial hospital website foundation.
+- [x] Responsive frontend direction.
+- [ ] Complete doctor discovery.
+- [ ] Department detail pages.
+- [ ] Appointment form validation.
+
+### Phase 2: Backend and Authentication
+
+- [ ] Express REST API.
+- [ ] PostgreSQL integration.
+- [ ] Secure patient authentication.
+- [ ] Doctor and department management.
+- [ ] Appointment scheduling backend.
+
+### Phase 3: Hospital Workflows
+
+- [ ] Patient dashboard.
+- [ ] Medical record access controls.
+- [ ] Laboratory workflow.
+- [ ] Pharmacy inventory.
+- [ ] Billing and payment verification.
+
+### Phase 4: AI Assistance
+
+- [ ] General healthcare information assistant.
+- [ ] AI-assisted appointment discovery.
+- [ ] Clinician-reviewed document summaries.
+- [ ] Approved medical knowledge retrieval.
+- [ ] Safety and quality evaluations.
+
+### Phase 5: Production Readiness
+
+- [ ] Automated test coverage.
+- [ ] Security and privacy review.
+- [ ] Accessibility testing.
+- [ ] Performance optimization.
+- [ ] Backup and recovery verification.
+- [ ] Deployment monitoring.
+
+Mark each feature complete only after implementation and testing.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature suggestions are welcome.
 
 1. Fork the repository.
-2. Create your feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
+2. Create a feature branch.
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+3. Implement and test your changes.
+4. Commit your work.
+
+   ```bash
+   git commit -m "feat: add your feature"
+   ```
+
+5. Push the branch.
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+
+6. Open a pull request with a description of the changes.
 
 ---
 
-# 📄 License
+## 👨‍💻 Developer
 
-This project is licensed under the **MIT License**.
-
----
-
-# 👨‍💻 Developer
-
-## Mugunthan DK
+### Mugunthan DK
 
 **Full Stack Developer | AI/ML Enthusiast**
 
-### Connect
+B.Tech Information Technology, VSB Engineering College
 
-* 🌐 Live Project: https://hospital-management-sigma-snowy.vercel.app/
+- **Live Project:** https://hospital-management-sigma-snowy.vercel.app/
+- **GitHub:** https://github.com/Mugunthandk
+- **LinkedIn:** https://www.linkedin.com/in/mugunthandk/
+- **Portfolio:** https://mugunthandk-portfolio-vvuy.vercel.app/
+
+Interested in developing modern web applications, AI-assisted products, and reliable software solutions.
 
 ---
 
-## ⭐ If you found this project useful, don't forget to star the repository and share it with others!
+## 📄 License
 
-<p align="center">
+The existing README mentions the MIT License. Confirm that an MIT `LICENSE` file exists in the repository before retaining that claim.
 
-**Made with ❤️ for Modern Healthcare**
+---
 
-</p>
+<div align="center">
+
+### 🏥 CareSphere 2.0
+
+**Connected Care. Smarter Workflows. Better Experiences.**
+
+Built with ❤️ by **Mugunthan DK**
+
+[Visit Live Website](https://hospital-management-sigma-snowy.vercel.app/)
+
+</div>
